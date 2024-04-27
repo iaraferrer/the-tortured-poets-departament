@@ -1,0 +1,54 @@
+body {
+    background: #d2d2c1 url('imagens/fundo.png');
+    font: 16px Georgia;
+    color: rgb(63, 63, 62);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 145vh; 
+    margin: 0; 
+}
+
+#principal {
+    width: 900px; 
+}
+
+#menu {
+    background: #dbdbd1;
+    padding: 18px;
+}
+
+#espaço {
+    background-color: #d2d2c1;
+    font: 10px georgia white
+}
+
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#foot {
+    background: #dbdbd1;
+    padding: 18px;
+    text-align: justify;
+    
+}
+
+.final {
+    background: #dbdbd1;
+    padding: 2px;
+   text-align: center;
+   font-size: 12px;
+
+}
+
+.musicas {
+    font: 12px;
+    line-height: 25px;
+    background: #dbdbd1;
+    padding: 18px;
+}
+
