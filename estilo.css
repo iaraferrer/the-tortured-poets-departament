@@ -5,43 +5,50 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 145vh; 
+    height: 150vh; 
     margin: 0; 
 }
 
-#principal {
-    width: 900px; 
+.principal {
+    width: 900px;
+    text-align: justify; 
 }
 
 #menu {
     background: #dbdbd1;
     padding: 18px;
+    border: 3px solid #4b566a;
+
 }
 
 #espaço {
     background-color: #d2d2c1;
     font: 10px georgia white
+    
 }
 
 a {
     color: #4b566a;
     text-decoration: none;
     font-weight: bold;
-    padding: 5px;
+    padding: 3px;
 }
 
 #foot {
     background: #dbdbd1;
     padding: 18px;
     text-align: justify;
+    border: 3px solid #4b566a;
+
     
 }
 
 .final {
     background: #dbdbd1;
     padding: 2px;
-   text-align: center;
-   font-size: 12px;
+    text-align: center;
+    font-size: 12px;
+    border: 3px solid #4b566a;
 
 }
 
@@ -50,5 +57,22 @@ a {
     line-height: 25px;
     background: #dbdbd1;
     padding: 18px;
+    border: 3px solid #4b566a;
 }
 
+.img-taylor {
+    border: 3px solid #4b566a;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas menores que 600px de largura */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para telas entre 601px e 1024px de largura */
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /* Estilos para telas maiores que 1024px de largura */
+  }
+  
